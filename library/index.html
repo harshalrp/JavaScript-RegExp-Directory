@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+
+        <title>Directory of Regular Expressions</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+        <link type="text/css" rel="stylesheet" href="../commons/typeface.css" />
+        <link type="text/css" rel="stylesheet" href="../commons/reset.css" />
+        <link type="text/css" rel="stylesheet" href="css/library.css" />
+
+        <script type="text/javascript" src="../commons/jquery-2.0.3.js"></script>
+
+        <script type="text/javascript" src="js/init.js"></script>
+        <script type="text/javascript" src="js/loader.js"></script>
+        <script type="text/javascript" src="js/interactions.js"></script>
+
+    </head>
+
+    <body>
+
+        <div class="page-container">
+
+            <nav class="master-navigation">
+                <h3 class="heading">Categories</h3>
+                <ul id="category-list" class="category-list">
+                    <!--<li class="category-item active">Number</li>
+                    <li class="category-item">Words</li>
+                    <li class="category-item">Data</li>
+                    <li class="category-item">Number & letters</li>-->
+                </ul>
+            </nav>
+
+            <nav id="regexp-navigation" class="regexp-navigation">
+                <h3 id="close-regex-navigation" class="heading">&lt; Numbers</h3>
+                <ul id="regexp-list" class="regexp-list">
+                    <!--<li class="regexp-item">Natural Number</li>
+                    <li class="regexp-item active">Natural Number</li>
+                    <li class="regexp-item">Natural Number</li>
+                    <li class="regexp-item">Natural Number</li>-->
+                </ul>
+            </nav>
+
+            <div class="page-heading">
+                <h1>RegExp for JavaScript</h1>
+                <p>Directory of ready-to-use JavaScript Expressions</p>
+            </div>
+
+            <section class="information-panel">
+                <p class="label">Name</p>
+                <h3 id="regexp-title" class="regexp-title">Please select some regular expression first</h3>
+
+                <p class="label">Regular expression pattern</p>
+                <h2 id="regexp-pattern" class="regexp-pattern"></h2>
+
+                <p class="label">Description</p>
+                <div id="description-panel" class="description-panel">
+                    <!--<p>Description</p>
+                    <p>Description</p>-->
+                </div>
+
+                <p class="label">Test Inputs</p>
+                <ul id="test-inputs" class="test-input-panels">
+                    <!--<li class="passed">12345</li>
+                    <li class="failed">welcome To Jungle</li>-->
+                </ul>
+
+                <p class="label">Test your input</p>
+                <div class="regexp-input-panel">
+                    <input id="regexp-input" type="text" placeholder="Enter input to test the regular expression" />
+                    <span id="regexp-input-result"></span>
+                    <span id="regexp-input-error-handler" class="error-handler">
+                        * Please select some regular expression first
+                    </span>
+                </div>
+
+                <p class="label"></p>
+
+
+            </section>
+
+        </div>
+
+   </body>
+
+</html>

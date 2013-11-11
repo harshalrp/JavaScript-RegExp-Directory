@@ -1,0 +1,13 @@
+{
+    "numbers": {
+        "displayName": "Numbers",
+        "path": "data/numbers.json",
+        "description": "Regular expressions that deal with numbers"
+    },
+
+    "data": {
+        "displayName": "Data",
+        "path": "data/data.json",
+        "description": "Regular expressions that deal with various data types"
+    }
+}
